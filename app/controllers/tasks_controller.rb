@@ -5,7 +5,12 @@ before_action :set_task, only: [:show, :edit, :update, :destroy]
   # GET /tasks
   # GET /tasks.json
   def index
-    @tasks = Task.all
+
+    @task = Task.all
+    @tasks = Task.order("finished asc, endd asc")
+    #@tasks = Task.order("endd desc finished ") 
+
+   
   end
 
   # GET /tasks/1
