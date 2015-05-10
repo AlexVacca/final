@@ -1,0 +1,12 @@
+es:
+
+ activerecord:
+        attributes:
+            task:
+                tittle: "Titulo"
+                content: "Contenido"
+                duration: "Duracion"
+                stard: "Fecha de Inicio"
+                endd: "Fecha Final"
+                user_id: "Usuario"
+                finished: "Finalizado"
